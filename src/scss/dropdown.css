@@ -1,0 +1,58 @@
+.custom-select {
+  position: relative;
+  font-family: Arial; }
+  .custom-select select {
+    display: none;
+    /*hide original SELECT element:*/ }
+
+.select-selected {
+  background-color: #fff;
+  /*style the arrow inside the select element:*/
+  /*point the arrow upwards when the select box is open (active):*/ }
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    border-color: transparent #bdc5cf #bdc5cf transparent;
+    transform: rotate(45deg); }
+  .select-selected .select-arrow-active:after {
+    transform: rotate(225deg);
+    top: 14px; }
+
+/*style the items (options), including the selected item:*/
+.select-items div, .select-selected {
+  color: #373c43;
+  padding: 8px 15px;
+  border: 1px solid #e4e9ee;
+  cursor: pointer;
+  user-select: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px; }
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  max-height: 156px;
+  overflow-y: scroll; }
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none; }
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1); }
+
+.select-wrapper {
+  display: flex; }
+
+/*# sourceMappingURL=dropdown.css.map */

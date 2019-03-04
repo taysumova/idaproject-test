@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Payment</title>
+</head>
+<body>
+<div class="container">
+    <nav class="nav-menu">
+        <ul class="nav-menu__list">
+            <li class="nav-menu__item"><a href="#">Личный кабинет</a></li>
+            <li class="nav-menu__item"><a href="#">Платежи</a></li>
+            <li class="nav-menu__item"><a href="#">История платежей</a></li>
+            <li class="nav-menu__item"><a href="#">Настройки</a></li>
+            <li class="nav-menu__item"><a href="#">Выйти</a></li>
+        </ul>
+    </nav>
+    <main class="payment">
+        <div class="info payment__info">
+            <h4 class="info__header">Информация по оплате:</h4>
+            <div class="info__row">
+                <span class="info__name">Номер счета:</span>
+                <span class="info__value">87123658716587</span>
+            </div>
+            <div class="info__row">
+                <span class="info__name">Сумма платежа:</span>
+                <span class="info__value">100 руб.</span>
+            </div>
+        </div>
+        <form id="cardForm" action="#" method="post" class="payment__card">
+            <fieldset class="fieldset card-form">
+                <legend class="legend card-form__header">Данные банковской карты</legend>
+                <div class="card-form__front">
+                    <label class="label">Номер карты</label>
+                    <div class="card-number-wrapper">
+                        <input id="card-number1" type="text" class="input card-number">
+                        <input id="card-number2" type="text" class="input card-number">
+                        <input id="card-number3" type="text" class="input card-number">
+                        <input id="card-number4" type="text" class="input card-number">
+                    </div>
+                    <label class="label">Срок действия</label>
+                    <div class="select-wrapper">
+                        <div class="custom-select card-form__select" style="width:70px;">
+                            <select name="#" id="#">
+                                <option value="">_</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                        <div class="custom-select card-form__select" style="width:86px;">
+                            <select name="#" id="##">
+                                <option value="">__</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input id="cardHolder" type="text" class="input input_card-holder" placeholder="Держатель карты">
+                </div>
+                <div class="card-form__back">
+                    <span class="back__line"></span>
+                    <label class="label back__label">
+                        Код CVV2 / CVC2
+                        <input id="cvv" type="text" class="input input_card-cvv">
+                        <a href="#" class="info-btn"><img src="static/img/cvv_info.svg" alt="cvv info"></a>
+                    </label>
+                </div>
+            </fieldset>
+            <button class="submit_btn card-form__btn">Оплатить</button>
+        </form>
+        <footer class="footer">
+            <p class="footer__line">Исходя из астатической системы координат Булгакова, соединение стабильно. Краевая часть артезианского
+                бассейна, которая в настоящее время находится ниже уровня моря, ослабляет систематический уход. Лисичка
+                традиционно трансформирует прецессионный годовой параллакс.</p>
+            <p class="footer__line">Выклинивание абсолютно аккумулирует твердый pадиотелескоп Максвелла.</p>
+            <p class="footer__line">Алмаз слагает горст. Делювий длительно колеблет лазерный подвижный объект.</p>
+            <p class="footer__line">Устойчивость, например, параллельна. Аргумент перигелия определяет боксит. Проекция вертикально дает
+                уходящий диабаз. Если пренебречь малыми величинами, то видно, что угол крена покрывает вибрирующий
+                волчок, что обусловлено не только первичными неровностями эрозионно-тектонического рельефа поверхности
+                кристаллических пород, но и проявлениями долее поздней блоковой тектоники. Засветка неба заставляет
+                иначе взглянуть на то, что такое волчок.</p>
+        </footer>
+    </main>
+</div>
+</body>
+</html>

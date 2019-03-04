@@ -1,0 +1,13 @@
+.footer {
+  background-color: #373c43;
+  padding: 26px 45px 21px 29px; }
+  .footer .footer__line {
+    font-family: Arial;
+    color: #89909d;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 10px; }
+
+/*# sourceMappingURL=footer.css.map */

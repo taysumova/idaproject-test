@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/opensans-bold.ttf"); }
+body {
+  background-color: #07090c; }
+
+.container {
+  display: flex;
+  margin: 79px auto 80px;
+  width: 1000px; }
+
+.payment {
+  background-color: #f7f8f8;
+  width: 639px; }
+  .payment .payment__info {
+    margin: 47px 29px 35px; }
+  .payment .payment__card {
+    position: relative;
+    margin: 0 46px 45px 29px; }
+
+.card-form {
+  position: relative;
+  height: 300px; }
+
+.card-form__header {
+  margin: 0 0 22px -12px; }
+
+.card-form__front {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  border-radius: 10px;
+  border: 1px solid #e4e9ee;
+  box-sizing: border-box;
+  background-color: #f7f8f8;
+  width: 350px;
+  height: 236px;
+  text-align: left;
+  padding: 25px 15px 14px 16px; }
+  .card-form__front .card-number-wrapper {
+    margin: 5px 0 17px; }
+    .card-form__front .card-number-wrapper .card-number {
+      border: 1px solid #e4e9ee;
+      box-sizing: border-box;
+      background-color: #fff;
+      width: 65px;
+      height: 42px;
+      display: inline-block;
+      margin: 0 9px 0 0; }
+  .card-form__front .input_card-holder {
+    margin-top: 12px;
+    width: 319px; }
+
+.card-form__back {
+  margin-top: 16px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  border-radius: 10px;
+  border: 1px solid #e4e9ee;
+  box-sizing: border-box;
+  background-color: #f7f8f8;
+  width: 370px;
+  height: 236px;
+  text-align: right; }
+  .card-form__back .back__line {
+    background-color: #e4e9ee;
+    width: 269px;
+    height: 42px;
+    float: right;
+    margin: 26px 0 19px; }
+  .card-form__back .back__label {
+    float: right;
+    position: relative;
+    margin-right: 15px;
+    text-align: left; }
+  .card-form__back .input_card-cvv {
+    border: 1px solid #e4e9ee;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: block;
+    width: 138px;
+    height: 42px; }
+  .card-form__back .info-btn img {
+    position: absolute;
+    bottom: 7px;
+    right: 9px; }
+
+.card-form__btn {
+  margin: 0 0 40px 15px; }
+
+.card-form__select {
+  margin: 5px 9px 0 0; }
+
+/*# sourceMappingURL=main.css.map */

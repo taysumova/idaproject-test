@@ -1,0 +1,21 @@
+.info {
+  font-family: Arial;
+  color: #8494ab;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px; }
+  .info .info__header {
+    font-weight: 400;
+    margin: 0 0 23px; }
+  .info .info__row {
+    display: flex;
+    margin-bottom: 11px; }
+  .info .info__name {
+    display: block;
+    width: 30%; }
+  .info .info__value {
+    display: block;
+    color: #373c43;
+    width: 70%; }
+
+/*# sourceMappingURL=infoDisplay.css.map */
