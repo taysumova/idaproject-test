@@ -51,8 +51,7 @@ body {
   padding: 22px 15px 14px;
   .card-number-wrapper {
     margin: 5px 0 12px;
-    .card-number {
-     border: 1px solid #e4e9ee;
+    .input_card-number {
       box-sizing: border-box;
       background-color: #fff;
       width: 65px;
@@ -94,7 +93,6 @@ body {
     text-align: left;
   }
   .input_card-cvv {
-    border: 1px solid #e4e9ee;
     box-sizing: border-box;
     background-color: #fff;
     display: block;
