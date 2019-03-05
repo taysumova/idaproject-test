@@ -5,26 +5,26 @@
 .legend {
   font-family: 'Open Sans', sans-serif;
   color: #383d43;
-  font-size: 21.98px;
-  line-height: 22px;
+  font-size: 1.374rem;
+  line-height: 1.001;
 }
 
 .label {
   display: block;
   font-family: Arial;
   color: #8494ab;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 1.313;
 }
 
 .input {
   border: 1px solid #e4e9ee;
   background-color: #fff;
-  padding: 15px 0 11px 12px;
-  font-size: 16px;
+  padding: 0.688rem 0.688rem 0.625rem;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 1.313;
   color: #000;
 }
 
@@ -43,12 +43,12 @@
   border: none;
   border-radius: 22px;
   cursor: pointer;
-  padding: 15px 31px;
-  width: 133px;
+  padding: 0.688rem 1.875rem;
+  width: 8.313rem;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 0.875rem;
+  line-height: 1.286;
   text-align: center;
   outline: none;
 }
