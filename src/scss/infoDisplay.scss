@@ -1,16 +1,16 @@
 .info {
   font-family: Arial;
   color: #8494ab;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 1.313;
   .info__header {
     font-weight: 400;
-    margin: 0 0 19px;
+    margin: 0 0 1.188rem;
   }
   .info__row {
     display: flex;
-    margin-bottom: 6px;
+    margin-bottom: 0.375rem;
   }
   .info__name {
     display: block;
@@ -21,4 +21,15 @@
     color: #373c43;
     width: 70%;
   }
+
+  @media screen and (max-width: 493px) {
+    .info__name {
+      width: 40%;
+    }
+
+    .info__value {
+      width: 55%;
+    }
+  }
 }
+

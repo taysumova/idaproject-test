@@ -1,6 +1,7 @@
 //js
 import './js/dropdownStyle'
 import './js/validation'
+import './js/navMenu'
 
 //styles
 import './scss/dropdown.scss'

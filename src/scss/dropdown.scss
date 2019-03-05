@@ -24,7 +24,7 @@
   /*point the arrow upwards when the select box is open (active):*/
   .select-arrow-active:after {
     transform: rotate(225deg);
-    top: 14px;
+    top: 0.875rem;
   }
 }
 
@@ -35,9 +35,9 @@
   border: 1px solid #e4e9ee;
   cursor: pointer;
   user-select: none;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 1.313;
 }
 
 /*style items (options):*/

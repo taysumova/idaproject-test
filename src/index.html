@@ -9,15 +9,25 @@
 </head>
 <body>
 <div class="container">
-    <nav class="nav-menu">
-        <ul class="nav-menu__list">
-            <li class="nav-menu__item"><a href="#">Личный кабинет</a></li>
-            <li class="nav-menu__item"><a href="#">Платежи</a></li>
-            <li class="nav-menu__item"><a href="#">История платежей</a></li>
-            <li class="nav-menu__item"><a href="#">Настройки</a></li>
-            <li class="nav-menu__item"><a href="#">Выйти</a></li>
-        </ul>
-    </nav>
+    <div class="nav-menu-wrapper">
+        <label for="nav-menu_mobile" class="nav-menu_mobile-label">
+            <span class="menu__closed"></span>
+            <span class="menu__closed"></span>
+            <span class="menu__closed"></span>
+            <span id="first-col" class="menu__opened"></span>
+            <span id="second-col" class="menu__opened"></span>
+        </label>
+        <input id="nav-menu_mobile" type="checkbox" >
+        <nav class="nav-menu">
+            <ul class="nav-menu__list">
+                <li class="nav-menu__item"><a href="#">Личный кабинет</a></li>
+                <li class="nav-menu__item"><a href="#">Платежи</a></li>
+                <li class="nav-menu__item"><a href="#">История платежей</a></li>
+                <li class="nav-menu__item"><a href="#">Настройки</a></li>
+                <li class="nav-menu__item"><a href="#">Выйти</a></li>
+            </ul>
+        </nav>
+    </div>
     <main class="payment">
         <div class="info payment__info">
             <h4 class="info__header">Информация по оплате:</h4>

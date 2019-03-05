@@ -1,14 +1,14 @@
 .footer {
   background-color: #373c43;
-  padding: 10px 45px 21px 29px;
+  padding: 0.625rem 2.813rem 1.313rem 1.813rem;
   .footer__line {
     font-family: Arial;
     color: #89909d;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 1.5;
   }
   .footer__line:not(:first-of-type) {
-    margin: -2px 0 12px;
+    margin: -0.125rem 0 0.75rem;
   }
 }
